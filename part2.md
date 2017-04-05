@@ -19,7 +19,7 @@
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/attributes.png)
 ### Adding recipe in solo conf:
    - Rerun chef to apply changes: $chef-solo -c /root/.chef/solo.rb
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curlfromvg.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/firewallddddd.png)
 ### Nginx is available
   - Curl localhost : $curl -IL localhost:8081
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curlfromvg.png)
