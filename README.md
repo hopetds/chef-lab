@@ -41,3 +41,7 @@
 ---
 ## Run chef with solo conf:
  - chef-solo -c /root/.chef/solo.rb
+### Check if nginx is working:
+ - curl -IL localhost
+ Output:
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/curl.png)
