@@ -17,7 +17,8 @@
 ### Configuring firewall rules:
  - vim /root/cookbooks/firewall/recipes/default.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/attributes.png)
- - chef-solo -c /root/.chef/solo.rb
+### Adding recipe in solo conf:
+   - chef-solo -c /root/.chef/solo.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/firewallddddd.png)
 ### Nginx is available
   - Curl localhost
