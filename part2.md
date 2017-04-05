@@ -17,7 +17,7 @@
  - vim /root/cookbooks/firewall/recipes/default.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
  - chef-solo -c /root/.chef/solo.rb
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/rules.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/firewallddddd.png)
   - Curl localhost
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curlfromvg.png)
  - Curl from hostmachine
