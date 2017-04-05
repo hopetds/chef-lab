@@ -31,16 +31,16 @@
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/
 ## Configuring knife:
  ### - mkdir /root/.chef/solo.db
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/solo.png)
 ## Configuring runlist.json
  ### - vim /root/.chef/runlist.json
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## Note that  recipe names must be identical to /root/cookbooks/%cookbooksname%
  - "recipe[chef_nginx::default]" - /root/cookbooks/chef_nginx
  - "recipe[iptables::default]" - /root/cookbooks/iptables
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/cooks.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/cooks.png)
 ---
 ## Run chef with solo conf:
  - chef-solo -c /root/.chef/solo.rb
 ### Check if nginx is working: $curl -IL localhost
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/curl.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curl.png)
