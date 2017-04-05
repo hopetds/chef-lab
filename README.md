@@ -33,5 +33,5 @@
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
 ## Configuring runlist.json
  ### - vim /root/.chef/runlist.json
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
  
