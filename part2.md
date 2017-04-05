@@ -10,4 +10,6 @@
  - berks package
  - tar -xf cookbooks-1491400802.tar.gz -C /root/
  - cd /root/cookbooks/firewall
+ - vim /root/cookbooks/firewall/attributes/default.rb
+ - vim /root/cookbooks/firewall/recipes/default.rb
  
