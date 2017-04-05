@@ -21,7 +21,7 @@
    - Rerun chef to apply changes: $chef-solo -c /root/.chef/solo.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curlfromvg.png)
 ### Nginx is available
-  - Curl localhost
+  - Curl localhost : $curl -IL localhost:8081
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curlfromvg.png)
- - Curl from hostmachine
+ - Curl from hostmachine : $curl -IL 192.168.10.15:8081
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/curllocalhost.png)
