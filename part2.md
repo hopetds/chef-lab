@@ -15,6 +15,8 @@
  - vim /root/.chef/solo.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
 ### Configuring firewall rules:
+ - vim /root/cookbooks/firewall/attributes/defautl.rb
+    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/true.png)
  - vim /root/cookbooks/firewall/recipes/default.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/attributes.png)
 ### Adding recipe in solo conf:
