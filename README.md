@@ -20,6 +20,7 @@
  - sudo unzip master #nginx
  - sudo unzip master1 #iptables
 ## Berks:
+ - sudo yum install git -y
  - cd /opt/chef-nginx
  - berks init
  - berks install
