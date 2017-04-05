@@ -37,4 +37,4 @@
 ## Note that  recipe names must be identical to /root/cookbooks/%cookbooksname%
  - "recipe[chef_nginx::default]" - /root/cookbooks/chef_nginx
  - "recipe[iptables::default]" - /root/cookbooks/iptables
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/cooks.png)
