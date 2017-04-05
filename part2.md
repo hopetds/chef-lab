@@ -12,7 +12,7 @@
  - cd /root/cookbooks/firewall
  - vim /root/cookbooks/chef_nginx/attributes/default.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/8081.png)
- - vim /root/.chef/solo.rb
+ - vim /root/.chef/runlist.json
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/master/runlist.png)
 ### Configuring firewall rules:
  - vim /root/cookbooks/firewall/attributes/defautl.rb
