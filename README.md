@@ -25,7 +25,7 @@
  - berks install
  - berks package
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/
-## Same berks step for iptables:
+## Same berks steps for iptables:
  --//--
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/cookbooks
 ## Configuring knife:
