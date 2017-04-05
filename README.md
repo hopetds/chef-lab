@@ -28,7 +28,7 @@
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/
 ## Same berks steps for iptables:
  --//--
- - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/cookbooks
+ - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/
 ## Configuring knife:
  ### - mkdir /root/.chef/solo.db
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
