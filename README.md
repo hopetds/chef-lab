@@ -29,8 +29,9 @@
  --//--
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/cookbooks
 ## Configuring knife:
- - mkdir /root/.chef/solo.db
+ ### - mkdir /root/.chef/solo.db
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
- 
-
+## Configuring runlist.json
+ ### - vim /root/.chef/runlist.json
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/solo.png)
  
