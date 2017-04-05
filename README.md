@@ -38,3 +38,6 @@
  - "recipe[chef_nginx::default]" - /root/cookbooks/chef_nginx
  - "recipe[iptables::default]" - /root/cookbooks/iptables
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/cooks.png)
+---
+## Run chef with solo conf:
+ - chef-solo -c /root/.chef/solo.rb
