@@ -18,7 +18,7 @@
  - vim /root/cookbooks/firewall/attributes/defautl.rb
     ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/true.png)
  - vim /root/cookbooks/firewall/recipes/default.rb
-   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/attributes.png)
+   ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/finalport.png)
 ### Adding recipe in solo conf:
    - Rerun chef to apply changes: $chef-solo -c /root/.chef/solo.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/firewallddddd.png)
