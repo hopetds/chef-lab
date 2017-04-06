@@ -30,7 +30,7 @@
  --//--
  - sudo tar -xf cookbooks-1491390564.tar.gz -C /root/
 ## Configuring knife:
- ### - mkdir /root/.chef/solo.db
+ ### - mkdir /root/.chef/ && vim /root/.chef/solo.rb
    ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/solo.png)
 ## Configuring runlist.json
  ### - vim /root/.chef/runlist.json
