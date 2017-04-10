@@ -1,7 +1,6 @@
 #CHEF-LAB
 #Task 7
 ## Task for “Chef basics”
-
 1. Create new empty git repository on github or bitbucket.
 2. Clone/init this repo o your local PC. 3 - 8 steps should be done in this cookbook. Create a new branch in this repo. All work should be done in this branch. Do not forget to commit and push your changes.
 3. Download jdk cookbook from Opscode community cookbooks site
@@ -14,3 +13,9 @@
 11. Clone git cookbooks repo to your VM and apply them to system.
 12. Copy chef run output logs to your git repo commit and create Pull request to master branch.
 13. Send a link to your pull request to Nikalai_Stakanov@epam.com 
+
+## TASK steps:
+1. Download java cookbook
+2. Create jboss cookbook:
+  chef generate cookbook jboss
+3. asd
