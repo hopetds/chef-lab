@@ -1,0 +1,44 @@
+[2017-04-10T12:05:43+01:00] INFO: Started chef-zero at chefzero://localhost:8889 with repository at /root
+  One version per cookbook
+
+[2017-04-10T12:05:43+01:00] INFO: Forking chef instance to converge...
+[2017-04-10T12:05:43+01:00] INFO: *** Chef 12.18.31 ***
+[2017-04-10T12:05:43+01:00] INFO: Platform: x86_64-linux
+[2017-04-10T12:05:43+01:00] INFO: Chef-client pid: 4970
+[2017-04-10T12:05:52+01:00] INFO: Setting the run_list to ["recipe[jboss::default]"] from CLI options
+[2017-04-10T12:05:52+01:00] INFO: Run List is [recipe[jboss::default]]
+[2017-04-10T12:05:52+01:00] INFO: Run List expands to [jboss::default]
+[2017-04-10T12:05:52+01:00] INFO: Starting Chef Run for epplkraw0381t1.budapest.epam.com
+[2017-04-10T12:05:52+01:00] INFO: Running start handlers
+[2017-04-10T12:05:52+01:00] INFO: Start handlers complete.
+[2017-04-10T12:05:52+01:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+[2017-04-10T12:05:52+01:00] INFO: Loading cookbooks [jboss@0.1.0, java@1.48.0, apt@6.0.1, windows@3.0.4, homebrew@3.0.0, ohai@5.0.2]
+[2017-04-10T12:05:52+01:00] INFO: Storing updated cookbooks/jboss/recipes/default.rb in the cache.
+[2017-04-10T12:05:52+01:00] INFO: Processing log[jdk-version-changed] action nothing (java::notify line 29)
+[2017-04-10T12:05:52+01:00] INFO: Processing yum_package[java-1.7.0-openjdk] action install (java::openjdk line 53)
+[2017-04-10T12:05:58+01:00] INFO: Processing yum_package[java-1.7.0-openjdk-devel] action install (java::openjdk line 53)
+[2017-04-10T12:05:58+01:00] INFO: Processing java_alternatives[set-java-alternatives] action set (java::openjdk line 59)
+[2017-04-10T12:06:03+01:00] INFO: Processing directory[/etc/profile.d] action create (java::set_java_home line 19)
+[2017-04-10T12:06:03+01:00] INFO: Processing template[/etc/profile.d/jdk.sh] action create (java::set_java_home line 23)
+[2017-04-10T12:06:03+01:00] INFO: Processing group[JBOSS] action create (jboss::default line 14)
+[2017-04-10T12:06:03+01:00] INFO: Processing linux_user[JBOSS] action create (jboss::default line 17)
+[2017-04-10T12:06:03+01:00] INFO: Processing remote_file[/opt/jboss-as-7.1.1.Final.zip] action create_if_missing (jboss::default line 24)
+[2017-04-10T12:06:03+01:00] INFO: Processing remote_file[/opt/testweb.zip] action create_if_missing (jboss::default line 32)
+[2017-04-10T12:06:04+01:00] INFO: remote_file[/opt/testweb.zip] created file /opt/testweb.zip
+[2017-04-10T12:06:04+01:00] INFO: remote_file[/opt/testweb.zip] updated file contents /opt/testweb.zip
+[2017-04-10T12:06:04+01:00] INFO: Processing execute[unzip] action run (jboss::default line 37)
+[2017-04-10T12:06:06+01:00] INFO: execute[unzip] ran successfully
+[2017-04-10T12:06:06+01:00] INFO: Processing execute[unzipapp] action run (jboss::default line 42)
+[2017-04-10T12:06:06+01:00] INFO: execute[unzipapp] ran successfully
+[2017-04-10T12:06:06+01:00] INFO: Processing execute[perms] action run (jboss::default line 47)
+[2017-04-10T12:06:06+01:00] INFO: execute[perms] ran successfully
+[2017-04-10T12:06:06+01:00] INFO: Processing execute[create folder] action run (jboss::default line 51)
+[2017-04-10T12:06:06+01:00] INFO: execute[create folder] ran successfully
+[2017-04-10T12:06:06+01:00] INFO: Processing template[/etc/jboss-as/jboss-as.conf] action create (jboss::default line 55)
+[2017-04-10T12:06:06+01:00] INFO: Processing template[/etc/init.d/jboss] action create (jboss::default line 66)
+[2017-04-10T12:06:06+01:00] INFO: Processing service[jboss] action enable (jboss::default line 77)
+[2017-04-10T12:06:07+01:00] INFO: Processing service[jboss] action start (jboss::default line 77)
+[2017-04-10T12:06:15+01:00] INFO: service[jboss] started
+[2017-04-10T12:06:15+01:00] INFO: Chef Run complete in 23.38787371 seconds
+[2017-04-10T12:06:15+01:00] INFO: Running report handlers
+[2017-04-10T12:06:15+01:00] INFO: Report handlers complete
