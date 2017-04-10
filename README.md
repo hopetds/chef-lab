@@ -26,10 +26,9 @@
  - vim /root/cookbooks/jboss/attributes/default.rb
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/attributes.png)
 ## 5. Configuring Jboss /recipes/default.rb
- - vim /root/cookbooks/jboss/recipes/default.rb
- - install jboss, create user
+ - vim /root/cookbooks/jboss/recipes/default.rb ---- install jboss, create user
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/before-deployingapp.png)
- - deploy, configure jboss as a service
+ - vim /root/cookbooks/jboss/recipes/default.rb ----- deploy, configure jboss as a service
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/undeploying-final.png)
 ## 6. Placing jboss.erb and jboss-conf.erb into templates folder
  - I've simply copied existing conf files
