@@ -35,7 +35,7 @@
 ## 7. /root/.chef/solo.rb:
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/solo.png)
 ## 8. /root/.chef/runlist.json:
- ![alt tag](hhttps://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/runlist.png)
 ## 9. Running chef-solo:
  - chef-solo -c /root/.chef/solo.rb >>cheflog.txt
  https://github.com/hopetds/chef-lab/blob/task7/chefstartlog.txt
