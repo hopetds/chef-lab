@@ -18,25 +18,25 @@
 ## 1. Download java cookbook
 ## 2. Create jboss cookbook:
  - chef generate cookbook jboss
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jbossgenerate.png)
 ## 3. Configure java dependency
  - vim /root/cookbooks/jboss/metadata.rb
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-metadata.png)
 ## 4. Configuring jboss /attributes/default.rb
  - vim /root/cookbooks/jboss/attributes/default.rb
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-attributes.png)
 ## 5. Configuring Jboss /recipes/default.rb
  - vim /root/cookbooks/jboss/recipes/default.rb
  - install jboss, create user
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-recipes1-tillhotdeploy.png)
  - deploy, configure jboss as a service
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-recipe-tillend.png)
 ## 6. Placing jboss.erb and jboss-conf.erb into templates folder
  - I've simply copied existing conf files
 ## 7. /root/.chef/solo.rb:
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/solo.png)
 ## 8. /root/.chef/runlist.json:
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](hhttps://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/runlist.png)
 ## 9. Running chef-solo:
  - chef-solo -c /root/.chef/solo.rb
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
