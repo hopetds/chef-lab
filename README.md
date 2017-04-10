@@ -20,7 +20,8 @@
  - chef generate cookbook jboss
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## 3. Configure java dependency
- - 
+ - vim /root/cookbooks/jboss/metadata.rb
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## 4. Configuring jboss /attributes/default.rb
  - vim /root/cookbooks/jboss/attributes/default.rb
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
