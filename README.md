@@ -24,13 +24,13 @@
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-metadata.png)
 ## 4. Configuring jboss /attributes/default.rb
  - vim /root/cookbooks/jboss/attributes/default.rb
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-attributes.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/attributes.png)
 ## 5. Configuring Jboss /recipes/default.rb
  - vim /root/cookbooks/jboss/recipes/default.rb
  - install jboss, create user
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-recipes1-tillhotdeploy.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/before-deployingapp.png)
  - deploy, configure jboss as a service
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/jboss-recipe-tillend.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/undeploying-final.png)
 ## 6. Placing jboss.erb and jboss-conf.erb into templates folder
  - I've simply copied existing conf files
 ## 7. /root/.chef/solo.rb:
@@ -39,6 +39,6 @@
  ![alt tag](hhttps://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/runlist.png)
 ## 9. Running chef-solo:
  - chef-solo -c /root/.chef/solo.rb >>cheflog.txt
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ https://github.com/hopetds/chef-lab/blob/task7/chefstartlog.txt
 ## 10. APP is deployed successfully:
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/end.png)
