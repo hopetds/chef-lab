@@ -32,7 +32,7 @@
  - deploy, configure jboss as a service
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## 6. Placing jboss.erb and jboss-conf.erb into templates folder
- ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
+ - I've simply copied existing conf files
 ## 7. /root/.chef/solo.rb:
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## 8. /root/.chef/runlist.json:
