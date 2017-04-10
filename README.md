@@ -15,7 +15,7 @@
 13. Send a link to your pull request to Nikalai_Stakanov@epam.com 
 
 ## TASK steps:
-1. Download java cookbook
-2. Create jboss cookbook:
+###1. Download java cookbook
+###2. Create jboss cookbook:
   chef generate cookbook jboss
 3. asd
