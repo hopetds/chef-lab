@@ -38,7 +38,7 @@
 ## 8. /root/.chef/runlist.json:
  ![alt tag](hhttps://raw.githubusercontent.com/hopetds/chef-lab/task7/pics/runlist.png)
 ## 9. Running chef-solo:
- - chef-solo -c /root/.chef/solo.rb
+ - chef-solo -c /root/.chef/solo.rb >>cheflog.txt
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
 ## 10. APP is deployed successfully:
  ![alt tag](https://raw.githubusercontent.com/hopetds/chef-lab/task6/pics/runlist.png)
