@@ -1,0 +1,8 @@
+<VirtualHost *>
+  ServerName 127.0.0.1  
+
+  RewriteEngine On
+  RewriteCond %{DOCUMENT_ROOT}/maintenance.html -f
+  RewriteCond %{SCRIPT_FILENAME} !/maintenance.html
+  RewriteRule ^.*$ /maintenance.html [L]
+</IfModule>

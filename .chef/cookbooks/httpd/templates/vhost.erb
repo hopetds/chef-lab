@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+    ServerName 127.0.0.1
+    <Location />
+        Order allow,deny
+        Allow from all
+        Options Indexes
+    </Location>
+
+    ProxyPass / http://127.0.0.1:8080/testweb/
+</VirtualHost>
