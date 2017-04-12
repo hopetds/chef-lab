@@ -1,0 +1,12 @@
+{
+  "name": "data_bag_item_hudson_engine",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "hudson",
+  "raw_data": {
+    "id": "engine",
+    "Chef-dev": {
+      "engine": "Jboss-7.1.1"
+    }
+  }
+}
